@@ -1,0 +1,98 @@
+.Add-btn {
+    background: linear-gradient(to right, #B041FF, #FA2A55);
+    border: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 8px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+    transition: all 0.5s;
+  }
+  .Add-btn:hover {
+    background-color: #ffda00;
+    color: black;
+    transform: scale(1);
+    box-shadow: 0 5px 10px -12.125px rgba(0, 0, 0, 0.2);
+  }
+  .Add-btn:focus {
+    outline: 0;
+  }
+  /* add movie modal */
+  .addMovie-h1 {
+    color: #ffffff;
+  }
+  .add-modal {
+    position: relative;
+    top: 4%;
+    left: 32%;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    border: 1px solid #1e1b26;
+    border-radius: 5px;
+    background-image: linear-gradient(
+      35deg,
+      #1f2127 1%,
+      #1f2127 50%,
+      #666362 70%,
+      #666362 70%,
+      #666362 100% );
+  }
+  form h1 {
+    text-decoration: underline;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  form input {
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: grey;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+  form label {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+  }
+  form input:focus {
+    outline: 0;
+  }
+  form textarea {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: grey;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  form textarea:focus {
+    outline: 0;
+  }
+  /* modal Buttons */
+  .Modal-btn {
+    border-radius: 5px;
+    background: linear-gradient(to right, #B041FF,
+    #FA2A55);
+    border: transparent;
+    color: white;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .Modal-btn:hover {
+    background: linear-gradient(to right, #252931, #515355);
+  }
+  .Modal-btn:focus {
+    outline: 0;
+  }
